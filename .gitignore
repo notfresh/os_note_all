@@ -1,0 +1,50 @@
+# Nachos build files
+# (based on make clean)
+Nachos/nachos-3.4/code/*~
+Nachos/nachos-3.4/code/*/core
+Nachos/nachos-3.4/code/*/nachos
+Nachos/nachos-3.4/code/*/DISK
+Nachos/nachos-3.4/code/*/*.o
+Nachos/nachos-3.4/code/*/swtch.s
+Nachos/nachos-3.4/code/*/*~
+Nachos/nachos-3.4/code/test/*.coff
+Nachos/nachos-3.4/code/bin/coff2flat
+Nachos/nachos-3.4/code/bin/coff2noff
+Nachos/nachos-3.4/code/bin/disassemble
+Nachos/nachos-3.4/code/bin/out
+
+# VS Code
+.vscode
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
